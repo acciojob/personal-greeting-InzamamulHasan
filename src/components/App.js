@@ -12,7 +12,7 @@ const App = () => {
         <br/>
         <input type="text" id="text" onChange={(e)=>setName(e.target.value)}/>
         <br/>
-        <h1>{name}</h1>
+        <h1>{`Hello ${name}!`}</h1>
     </div>
   )
 }
