@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter you name:</p>
+        <p>Enter your name:</p>
         <br/>
         <br/>
         <input type="text" id="text" onChange={(e)=>setName(e.target.value)}/>
